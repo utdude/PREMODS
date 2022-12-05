@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+}
+.weblockermain{
+    width:100%;
+    height:100vh;
+    background-image: url(test.jpg);
+}
+.overlay{
+    width:100%;
+    height:100vh;
+    position:fixed;
+    z-index: 1;
+    background:#1a1a1a;
+    opacity: 0.9;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay-login .container{
+    padding:100px;
+    
+    width:30%;
+    padding-bottom:10%;
+    padding-top:10%;
+    margin:1%;
+    border-radius: 10px;
+   
+    background: #fff;
+    
+}
+.overlay-login .container form{
+    width:80%;
+}
+.overlay-login form input[type="text"],input[type="password"]{
+width:80%;
+padding:20px;
+font-size:15px;
+border:1px solid #888;
+border-radius: 5px;
+color:#1a1a1a;
+margin:10px;
+}
+.overlay-login form button{
+    
+    padding:20px 15px 20px 15px;
+    font-size:17px;
+    color:#fff;
+    background:cornflowerblue;
+    border:none;
+    border-radius: 5px;
+    margin:10px;
+    transition:0.5s all ease;
+    }
+
+    .overlay-login form button:hover{
+        color:#fff;
+        background-color: #1a1a1a;
+    }
